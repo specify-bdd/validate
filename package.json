@@ -1,0 +1,20 @@
+{
+  "name": "@specify-bdd/validate",
+  "version": "0.0.1",
+  "description": "A simple smoke test setup for Specify BDD's packages.",
+  "license": "MIT",
+  "author": "Adam Lacoste <adam.lacoste@hotmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specify-bdd/validate.git"
+  },
+  "dependencies": {
+    "@specify-bdd/plugin-cli": "^0.4.0",
+    "@specify-bdd/specify": "^0.4.0"
+  }
+}

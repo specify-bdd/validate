@@ -1,0 +1,7 @@
+{
+    "cucumber": { "parallel": 3 },
+    "paths": {
+        "testExecutionContext": "../source/test"
+    },
+    "plugins": [ "@specify-bdd/plugin-cli" ]
+}
