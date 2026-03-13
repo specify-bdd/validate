@@ -1,5 +1,10 @@
 {
-    "cucumber": { "parallel": 3 },
+    "cucumber": {
+        "parallel": 3,
+        "worldParameters": {
+            "refsPath": "./*.refs.json"
+        }
+    },
     "paths": {
         "testExecutionContext": "../source/test"
     },
