@@ -20,5 +20,5 @@ for DEP_PATH in $(npm ls --parseable --package-lock-only | tail -n+2); do
     PKG_ID="$(printf "%s/%s@%s" "$PKG_SCOPE" "$PKG_NAME" "$VERSION")"
 
     echo "Installing $PKG_ID" 
-    npm i $PKG_ID
+    npm i $PKG_ID || exit 1
 done

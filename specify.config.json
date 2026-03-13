@@ -2,7 +2,7 @@
     "cucumber": {
         "parallel": 3,
         "worldParameters": {
-            "refsPath": "./*.refs.json"
+            "refsPath": "../*.refs.json"
         }
     },
     "paths": {
