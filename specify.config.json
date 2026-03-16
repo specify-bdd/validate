@@ -6,7 +6,7 @@
         }
     },
     "paths": {
-        "testExecutionContext": "../source/test"
+        "testExecutionContext": "specify/test"
     },
     "plugins": [ "@specify-bdd/plugin-cli" ]
 }

@@ -1,0 +1,3 @@
+[submodule "specify"]
+	path = specify
+	url = git@github.com:specify-bdd/specify-core.git
