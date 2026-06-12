@@ -14,7 +14,8 @@
     "url": "git+https://github.com/specify-bdd/validate.git"
   },
   "dependencies": {
-    "@specify-bdd/plugin-cli": "^0.4.0",
-    "@specify-bdd/specify": "^0.4.0"
+    "@specify-bdd/plugin-browser": "^0.5.3",
+    "@specify-bdd/plugin-cli": "^0.5.3",
+    "@specify-bdd/specify": "^0.5.3"
   }
 }
